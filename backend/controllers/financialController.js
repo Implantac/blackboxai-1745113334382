@@ -57,7 +57,6 @@ exports.deleteTransacao = async (req, res, next) => {
 };
 
 const { Sequelize } = require('sequelize');
-const Transacao = require('../models/Transacao');
 
 exports.getCashFlow = async (req, res, next) => {
   try {
